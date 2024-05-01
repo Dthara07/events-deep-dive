@@ -6,8 +6,8 @@ on:
       - main
       - 'dev*'
       - 'feat/**'
-    paths-ignore:
-      - '.github/workflows/*'
+    paths:
+      - '!.github/workflows/*'
   workflow_dispatch:
   push:
     branches:
